@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.loginBox {
+    width: 1000px;
+    height: 600px;
+
+    background: #FFFFFF;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    display: flex;
+}
+
+.imageBox {
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    background: url('./LoginImage.jpg');
+    background-position: center;
+    background-size: 920px;
+}
+
+.rightBox {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    width: 300px;
+}
+
+.loginForm h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+
+    /* identical to box height */
+
+    color: #240302;
+
+    margin-top: 0;
+}
+
+.loginButton {
+    margin: 40px 0 5px;
+}
+
+.orContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftOrLine {
+    width: 100px;
+    height: 0;
+    border: 1px solid #C4C4C4;
+    margin: 21.5px 14px 21.5px 26.5px;
+}
+
+.rightOrLine {
+    width: 100px;
+    height: 0;
+    border: 1px solid #C4C4C4;
+    margin: 21.5px 26.5px 21.5px 14px;
+}
+
+.orBreak {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #CDBFB8;
+}
+
+.signupButton {
+    margin: 5px 0 0;
+}
