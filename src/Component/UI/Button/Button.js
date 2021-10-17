@@ -4,11 +4,11 @@ import styles from './Button.module.css';
 const Button = props => {
     if(props.alternateButton === 'true'){
         return (
-            <button className={`${props.classes} ${styles.buttonAlterBack}`}>{props.buttonText}</button>
+            <button type={props.buttonType} className={`${props.classes} ${styles.buttonAlterBack}`}>{props.buttonText}</button>
         );
     }
     return (
-        <button className={`${props.classes} ${styles.buttonBack}`}>{props.buttonText}</button>
+        <button type={props.buttonType} className={`${props.classes} ${styles.buttonBack}`}>{props.buttonText}</button>
     );
 }
 

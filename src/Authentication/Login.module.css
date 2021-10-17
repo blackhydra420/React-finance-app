@@ -46,6 +46,10 @@
 
 .loginButton {
     margin: 40px 0 5px;
+    width: 300px;
+    height: 50px;
+
+    font-size: 25px;
 }
 
 .orContainer{
@@ -80,4 +84,8 @@
 
 .signupButton {
     margin: 5px 0 0;
+    width: 300px;
+    height: 50px;
+
+    font-size: 25px;
 }
